@@ -4,7 +4,7 @@ kind: Pod
 
 metadata:
   name: redispod
-  lebel:
+  lebels:
     app: backendredis
 spec:
   containers:
