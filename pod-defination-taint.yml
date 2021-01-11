@@ -1,0 +1,12 @@
+apiVersion:
+kind:
+spec:
+  containers:
+    - name: nginx-conatiner
+      image: nginx
+  tolerations:
+    - key: "app"
+      operator: "Equal"
+      value: "blue"
+      effect: "NoSchedule"
+
