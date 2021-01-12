@@ -1,36 +1,25 @@
 apiVersion: apps/v1
-
 kind: Deployment
-
 metadata:
-  name: blue
-  labels:
-    app: webapp
-
+  name: red
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
-      app: webapp
+      run: nginx
   template:
     metadata:
       labels:
-        app: webapp
+        run: nginx
     spec:
       containers:
-       - name: nginx
-         image: nginx
+      - image: nginx
+        imagePullPolicy: Always
+        name: nginx
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
             nodeSelectorTerms:
             - matchExpressions:
-              - key: color
-                operator: In
-                values:
-                  - blue
-
-
-
-
-
+              - key: node-role.kubernetes.io/master
+                operator: Exists
