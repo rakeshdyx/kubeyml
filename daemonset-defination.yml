@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: monitoring
-    containers:
-      - name: elkstack
-        image: elasticsearch
+    spec:
+      containers:
+        - name: elkstack
+          image: elasticsearch
