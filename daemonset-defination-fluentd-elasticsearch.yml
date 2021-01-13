@@ -18,6 +18,6 @@ spec:
       labels:
         app: monitoring-agent
     spec:
-      conatinsers:
+      containers:
         - name: elasticsearch
           image: k8s.gcr.io/fluentd-elasticsearch:1.20
