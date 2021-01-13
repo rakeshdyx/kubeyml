@@ -9,11 +9,11 @@ metadata:
 
 spec:
   selector:
-    matchLables:
+    matchLabels:
       app: monitoring
   template:
     metadata:
-      lables:
+      labels:
         app: monitoring
     containers:
       - name: elkstack
