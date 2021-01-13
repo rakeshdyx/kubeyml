@@ -4,10 +4,12 @@ kind: DaemonSet
 
 metadata:
   name: monitoring-daemonset
+  labels:
+    app: monitoring-daemonsetdd
 
 spec:
   selector:
-    matchLeables:
+    matchLables:
       app: monitoring
   template:
     metadata:
