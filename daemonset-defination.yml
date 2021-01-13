@@ -4,8 +4,6 @@ kind: DaemonSet
 
 metadata:
   name: monitoring-daemonset
-  labels:
-    app: monitoring
 
 spec:
   selector:
