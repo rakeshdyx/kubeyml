@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  label:
+    app: frontend
+    type: web
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+  schedulerName: mytest-scheduler
