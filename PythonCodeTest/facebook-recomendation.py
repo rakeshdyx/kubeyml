@@ -21,11 +21,11 @@ RforM=[]
 for i in YOU:
         if i not in common:
             RforM.append(i)
-print("Friends Recomended for Me", RforM)
+print("Friends Recommended for Me", RforM)
 
 RforY=[]
 for j in ME:
     if j not in common:
         RforY.append(j)
-print("Friends Recomended for You", RforY)
+print("Friends Recommended for You", RforY)
 
