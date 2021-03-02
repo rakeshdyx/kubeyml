@@ -1,0 +1,20 @@
+Transaction_date	Product	Price	Payment_Type	Name	City	State	Country	Account_Created	Last_Login	Latitude	Longitude	US Zip
+1/2/2009 4:53	Product1	1200	Visa	Betina	Parkville	MO	United States	1/2/2009 4:42	1/2/2009 7:49	39.195	-94.68194	64152
+1/2/2009 13:08	Product1	1200	Mastercard	Federica e Andrea	Astoria	OR	United States	1/1/2009 16:21	1/3/2009 12:32	46.18806	-123.83	97103
+1/4/2009 12:56	Product2	3600	Visa	Gerd W	Cahaba Heights	AL	United States	11/15/2008 15:47	1/4/2009 12:45	33.52056	-86.8025	35243
+1/4/2009 13:19	Product1	1200	Visa	LAURENCE	Mickleton	NJ	United States	9/24/2008 15:19	1/4/2009 13:04	39.79	-75.23806	8056
+1/4/2009 20:11	Product1	1200	Mastercard	Fleur	Peoria	IL	United States	1/3/2009 9:38	1/4/2009 19:45	40.69361	-89.58889	61601
+1/2/2009 20:09	Product1	1200	Mastercard	adam	Martin	TN	United States	1/2/2009 17:43	1/4/2009 20:01	36.34333	-88.85028	38237
+1/5/2009 2:42	Product1	1200	Diners	Stacy	New York	NY	United States	1/5/2009 2:23	1/5/2009 4:59	40.71417	-74.00639	10002
+1/2/2009 9:16	Product1	1200	Mastercard	Sean	Shavano Park	TX	United States	1/2/2009 8:32	1/5/2009 9:05	29.42389	-98.49333	78230
+1/5/2009 10:08	Product1	1200	Visa	Georgia	Eagle	ID	United States	11/11/2008 15:53	1/5/2009 10:05	43.69556	-116.35306	83616
+1/2/2009 14:18	Product1	1200	Visa	Richard	Riverside	NJ	United States	12/9/2008 12:07	1/5/2009 11:01	40.03222	-74.95778	8075
+1/2/2009 7:35	Product1	1200	Diners	Hani	Salt Lake City	UT	United States	12/30/2008 5:44	1/6/2009 10:52	40.76083	-111.89028	84111
+1/6/2009 7:18	Product1	1200	Visa	asuman	Chula Vista	CA	United States	1/6/2009 7:07	1/7/2009 7:08	32.64	-117.08333	91910
+1/1/2009 2:24	Product1	1200	Visa	Lisa	Sugar Land	TX	United States	1/1/2009 1:56	1/7/2009 10:52	29.61944	-95.63472	77478
+1/7/2009 8:08	Product1	1200	Diners	Bryan Kerrene	New York	NY	United States	1/7/2009 7:39	1/7/2009 12:38	40.71417	-74.00639	10007
+1/1/2009 20:21	Product1	1200	Visa	Maxine	Morton	IL	United States	10/24/2008 6:48	1/7/2009 20:49	40.61278	-89.45917	61550
+1/8/2009 0:42	Product1	1200	Visa	Family	Los Gatos	CA	United States	1/8/2009 0:28	1/8/2009 3:39	37.22667	-121.97361	95032
+1/8/2009 3:56	Product1	1200	Mastercard	Katherine	New York	NY	United States	1/8/2009 3:33	1/8/2009 6:19	40.71417	-74.00639	10007
+1/8/2009 3:16	Product1	1200	Mastercard	Linda	Miami	FL	United States	1/8/2009 3:06	1/8/2009 6:34	25.77389	-80.19389	33130
+1/3/2009 9:03	Product1	1200	Diners	Sheila	Brooklyn	NY	United States	1/3/2009 8:47	1/8/2009 10:38	40.65	-73.95	11226
