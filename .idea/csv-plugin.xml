@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\PythonCodeTest\tuples.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\replica-defination.yml">
           <value>
             <Attribute>
