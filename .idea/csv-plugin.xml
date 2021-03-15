@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\PythonCodeTest\list-comprehension.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\PythonCodeTest\testfile.csv">
           <value>
             <Attribute>
