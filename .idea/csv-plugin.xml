@@ -31,7 +31,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\PythonCodeTest\listcommnds.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PythonCodeTest\matchSubString.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\PythonCodeTest\nestedlist.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PythonCodeTest\sWAPcASE.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PythonCodeTest\string-split-join.py">
           <value>
             <Attribute>
               <option name="separator" value="," />
