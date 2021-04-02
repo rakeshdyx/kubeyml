@@ -21,6 +21,7 @@ spec:
 
 
 ---
+#Mltiple init conatiner
 apiVersion: v1
 items:
 - apiVersion: v1
@@ -42,6 +43,12 @@ items:
       - sleep 5
       image: busybox
       name: init-myservice
+    - command:
+      - sh
+      - -c
+      - sleep 20
+      image: busybox
+      name: init-myservice2
 
 
 
