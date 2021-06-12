@@ -6,6 +6,6 @@ metadata:
     type: sleepit
 
 spec:
-  container:
+  containers:
     - name: makethepodbusy
       image: busybox
