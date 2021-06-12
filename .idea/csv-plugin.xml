@@ -10,6 +10,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\PythonCodeTest\alphabetgangoli.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PythonCodeTest\capitalize.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PythonCodeTest\doormatdesign.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\PythonCodeTest\findthepercentage.py">
           <value>
             <Attribute>
@@ -59,6 +80,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\PythonCodeTest\str-formatting.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\PythonCodeTest\string-split-join.py">
           <value>
             <Attribute>
@@ -74,6 +102,13 @@
           </value>
         </entry>
         <entry key="\PythonCodeTest\testfile.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PythonCodeTest\testprogram.py">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -129,6 +164,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\pod-defination2.yml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\podWithInitConatiner.yml">
           <value>
             <Attribute>
@@ -140,6 +182,13 @@
           <value>
             <Attribute>
               <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\textwrap.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>

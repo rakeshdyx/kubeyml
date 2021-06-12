@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busyboxtest
+  labels:
+    type: sleepit
+
+spec:
+  container:
+    - name: makethepodbusy
+      image: busybox
