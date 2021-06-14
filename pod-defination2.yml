@@ -9,4 +9,5 @@ spec:
   containers:
     - name: makethepodbusy
       image: busybox
-      command: ["/bin/sh"]
+      command: ["sleep"]
+      arg: ["300"]
