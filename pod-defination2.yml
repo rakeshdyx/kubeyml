@@ -10,4 +10,4 @@ spec:
     - name: makethepodbusy
       image: busybox
       command: ["sleep"]
-      arg: ["300"]
+      args: ["300"]
