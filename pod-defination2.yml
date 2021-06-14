@@ -9,4 +9,4 @@ spec:
   containers:
     - name: makethepodbusy
       image: busybox
-      command: ["/bin/bash"]
+      command: ["/bin/sh"]
