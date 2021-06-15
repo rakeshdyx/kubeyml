@@ -6,8 +6,9 @@ metadata:
     tag: cicd
 spec:
   replicas: 2
-  matchLables:
-    type: web
+  selector:
+    matchLables:
+      type: web
   template:
     metadata:
       name: cicdwithcontainer
