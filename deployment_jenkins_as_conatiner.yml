@@ -20,7 +20,7 @@ spec:
           name: jenkinsdockerclient
           volumeMounts:
             - mountPath: /var/jenkins_home
-              name: jenkinvol
+              name: jenkinsvol
             - mountPath: /var/run/docker.sock
               name: dockersock
 
