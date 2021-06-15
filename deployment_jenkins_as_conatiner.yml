@@ -1,5 +1,5 @@
-apiVersion: app/v1
-kind: Deployments
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: jenkinsdockerclient
   labels:
