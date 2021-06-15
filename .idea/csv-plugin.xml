@@ -150,6 +150,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\deployment_jenkins_as_conatiner.yml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\liveness-probe-def.yml">
           <value>
             <Attribute>
