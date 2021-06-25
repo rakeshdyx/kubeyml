@@ -4,7 +4,7 @@
 iptables -nvL -t nat - to check the iptables set by docker.
 ```
 ---
-# CNI(Container Runtime Interface)
+## CNI(Container Runtime Interface)
 - Conatiner runtime must create a network namespace
 - Identify network the conatiner must attach to
 - Conatiner Runtime to invoke Network Plugin (bridge) when conatiner is ADDed
@@ -17,11 +17,11 @@ iptables -nvL -t nat - to check the iptables set by docker.
   - However docker doesn’t support CNI, docker has its own container network model(CNM) same as CNI with some differences.
   - When k8 cluster runs a conatiner in docker runtime, by default it set --network=none and later it assign a bridge to the container.
 
-* Example *
+*Example*
 
 ```
 docker run --network=none nginx
 bridge add 2e34dcf34 /var/run/netns/2e34dcf34
 ```
 ---
-# Pod Networking
+## Pod Networking
