@@ -1,10 +1,10 @@
-##Linux Networking
+#Linux Networking
 
 ```
 iptables -nvL -t nat - to check the iptables set by docker.
 ```
 ---
-##CNI(Container Runtime Interface)
+#CNI(Container Runtime Interface)
 	1. Conatiner runtime must create a network namespace
 	2. Identify network the conatiner must attach to
 	3. Conatiner Runtime to invoke Network Plugin (bridge) when conatiner is ADDed
@@ -25,4 +25,4 @@ iptables -nvL -t nat - to check the iptables set by docker.
 	bridge add 2e34dcf34 /var/run/netns/2e34dcf34
 	```
 ---
-##Pod Networking
+#Pod Networking
