@@ -8,11 +8,14 @@ spec:
   containers:
   - name: csvserver
     image: infracloudio/csvserver:latest
+    env:
+      -name: CSVSERVER_BORDER
+       value: "Orange"
     ports:
       - containerPort: 9300  
     volumeMounts:
       - name:  datafile
-        mountPath:  /csvserver/inputdata
+        mountPath:  "/csvserver/inputdata"
 
   - name: prommetheous
     image:  prom/prometheus:v2.22.0
@@ -20,16 +23,16 @@ spec:
       - containerPort: 9090
     volumeMounts:
       - name: prommetheous-vol
-        mountPath:  /etc/prometheus/prometheus.yml
+        mountPath:  "/etc/prometheus/prometheus.yml"
   volumes:
     - name:  datafile
       hostPath:
-        path: ./prometheus.yml
-        type: File
+        path: "./prometheus.yml"
+        type: FileOrCreate
     - name: prommetheous-vol
       hostPath:
-        path: ./inputFile
-        type: File
+        path: "./inputFile"
+        type: FileOrCreate
 ---
 apiVersion: v1
 kind: Service
