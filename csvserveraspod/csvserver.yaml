@@ -9,8 +9,8 @@ spec:
   - name: csvserver
     image: infracloudio/csvserver:latest
     env:
-      -name: CSVSERVER_BORDER
-       value: "Orange"
+      - name: CSVSERVER_BORDER
+        value: "Orange"
     ports:
       - containerPort: 9300  
     volumeMounts:
