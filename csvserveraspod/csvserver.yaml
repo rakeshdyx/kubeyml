@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: csvserver
+  labels:
+    name: csvserver
+spec:
+  containers:
+  - name: csvserver
+    image: infracloudio/csvserver:latest
+    ports:
+      - containerPort: 9300  
+    volumeMounts:
+      - name:  datafile
+        mountPath:  /csvserver/inputdata
+
+  - name: prommetheous
+    image:  prom/prometheus:v2.22.0
+    ports:
+      - containerPort: 9090
+    volumeMounts:
+      - name: prommetheous-vol
+        mountPath:  /etc/prometheus/prometheus.yml
+  volumes:
+    - name:  datafile
+      hostPath:
+        path: ./prometheus.yml
+        type: File
+    - name: prommetheous-vol
+      hostPath:
+        path: ./inputFile
+        type: File
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: csvserver-srv
+  labels:
+    name:  csvserver-srv
+spec: 
+  selector:
+    name: csvserver
+  type: NodePort
+  ports:
+  - name:  9393-tcp
+    port:  9300
+    targetPort: 9300
+    nodePort: 30010
+    protocol: TCP
+  - name:  9090-tcp
+    port: 9090
+    targetPort: 9090
+    nodePort: 30011
+    protocol: TCP
